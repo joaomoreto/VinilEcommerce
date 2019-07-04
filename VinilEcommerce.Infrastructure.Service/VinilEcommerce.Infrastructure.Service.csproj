@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\Spotify\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Spotify.API.NetCore" Version="1.0.2" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VinilEcommerce.CrossCutting.Exception\VinilEcommerce.CrossCutting.Exception.csproj" />
+    <ProjectReference Include="..\VinilEcommerce.Infrastructure.Data.DataBase\VinilEcommerce.Infrastructure.Data.DataBase.csproj" />
+    <ProjectReference Include="..\VinilEcommerce.Infrastructure.Service\VinilEcommerce.Infrastructure.Service.csproj" />
+  </ItemGroup>
+
+</Project>

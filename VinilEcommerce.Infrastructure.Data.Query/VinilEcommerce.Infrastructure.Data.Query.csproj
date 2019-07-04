@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="5.1.1" />
+    <PackageReference Include="MediatR" Version="7.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VinilEcommerce.Infrastructure.Data.DataBase\VinilEcommerce.Infrastructure.Data.DataBase.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VinilEcommerce.Infrastructure.Data.DataBase\VinilEcommerce.Infrastructure.Data.DataBase.csproj" />
+    <ProjectReference Include="..\VinilEcommerce.Infrastructure.Service\VinilEcommerce.Infrastructure.Service.csproj" />
+  </ItemGroup>
+
+</Project>
