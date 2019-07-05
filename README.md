@@ -2,7 +2,7 @@
 Projeto responsável por alimentar uma tabela de álbums com base na Api do Spotify e disponibilizar métodos para consultas e venda de álbums(discos) retornando cashback.
 
 ### Execução:
-Para executá-lo, basta cloná-lo a um diretório em sua máquina utilizando o Visual Studio.
+Para executá-lo, basta cloná-lo a um diretório em sua máquina utilizando o Visual Studio 2017 - 15.9.11.
 Por se tratar de uma Api, foi-se utilizado o Swagger para falicitar a visualização e execução dos métodos, além de mantê-los documentados.
 
 ### Métodos:
